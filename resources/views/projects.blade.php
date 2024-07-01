@@ -10,7 +10,17 @@
 </head>
 
 <body class="bg-[#060522]">
-    @dd($repos)
+    <div class="flex justify-center items-center">
+    <div class="grid grid-cols-1 w-[50vw] ">
+            @foreach ($projects as $project)
+                <div class="bg-[#061434] border-2 border-white h-[20vh] m-5 p-4 rounded-lg">
+                    <h1 class="text-white
+                        text-2xl">{{ $project['name'] }}</h1>
+                    </div>
+            @endforeach
+            
+    </div>
+
 </body>
 
 </html>

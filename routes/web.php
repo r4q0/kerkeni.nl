@@ -15,10 +15,10 @@ Route::get('/projects', function () {
         $repos[] = [
             'url' => $repo['html_url'],
             'description' => $repo['description'],
-            'name' => str_replace('-', ' ', $repo['name']),
+            'name' => ucwords(str_replace('-', ' ', $repo['name'])),
             "created" => $repo['created_at'],
             "updated" => $repo['updated_at'],
         ];
     }
-    return view('projects', ['repos' => $repos]);
+    return view('projects', ['projects' => $repos]);
 });
