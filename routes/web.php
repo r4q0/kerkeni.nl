@@ -6,9 +6,8 @@ use App\Http\Controllers\ProjectsController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('/projects', function () {
     return ProjectsController::renderProjects();
-
 });
