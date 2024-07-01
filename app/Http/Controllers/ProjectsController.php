@@ -24,7 +24,7 @@ class ProjectsController extends Controller
                     "updated" => $repo['updated_at'],
                 ];
             }
-            session(['projects' => $repos])->setLifetime(now()->addHours(12));
+            session(['projects' => $repos]);
         }
         return view('projects', ['projects' => session('projects')]);
     }
