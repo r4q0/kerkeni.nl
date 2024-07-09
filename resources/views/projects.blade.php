@@ -28,19 +28,15 @@
                     information provided with them are scraped from my GitHub with an application I made.</h2>
             </div>
             @foreach ($projects as $project)
-                <div class="bg-[#061434] border-2 border-white font-mono text-white h-52 m-5 p-4 rounded-lg grid grid-rows-[25%_75%]">
-                    <div class="grid grid-cols-2">
-                        <h1 class="font-black text-center text-3xl">{{$project['name']}}</h1>
-                        <h1>daw</h1>
-
-
+                <div
+                    class="bg-[#061434] border-2 border-white text-white h-52 m-5 p-4 rounded-lg grid grid-rows-[23%_77%]">
+                    <div class="grid grid-cols-[60%_40%]">
+                        <h2 class=" my-auto font-bold font-mono truncate text-center text-2xl">{{ $project['name'] }}</h2>
+                        <a class="font-bold font-mono text-center text-2xl my-auto " href="">Repository</a>
                     </div>
-                    <div class="grid grid-cols-2">
-
-                        <h1>daw</h1>
-                        <h1>daw</h1>
-
-
+                    <div class="grid grid-cols-[60%_40%]">
+                        <p class=" my-auto font-mono line-clamp-5 overflow-hidden m-2    text-center text-lg">{{ $project['description'] }}</p>
+                        <div class="grid grid-rows-2 text-center m-5"><p class="font-bold text-xl my-auto">Created: 8 Months ago</p> <p class="font-bold text-xl my-auto">Created: 8 Months ago</p></div>
                     </div>
                 </div>
             @endforeach
