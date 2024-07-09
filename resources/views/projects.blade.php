@@ -28,11 +28,20 @@
                     information provided with them are scraped from my GitHub with an application I made.</h2>
             </div>
             @foreach ($projects as $project)
-                <div class="bg-[#061434] border-2 border-white h-52 m-5 p-4 rounded-lg grid grid-rows-[25%_75%]">
-                    <h1 class="text-white
-                        text-2xl">{{ $project['name'] }}</h1>
-                    <h1 class="text-white
-                        text-2xl">{{ $project['name'] }}</h1>
+                <div class="bg-[#061434] border-2 border-white font-mono text-white h-52 m-5 p-4 rounded-lg grid grid-rows-[25%_75%]">
+                    <div class="grid grid-cols-2">
+                        <h1 class="font-black text-center text-3xl">{{$project['name']}}</h1>
+                        <h1>daw</h1>
+
+
+                    </div>
+                    <div class="grid grid-cols-2">
+
+                        <h1>daw</h1>
+                        <h1>daw</h1>
+
+
+                    </div>
                 </div>
             @endforeach
 
