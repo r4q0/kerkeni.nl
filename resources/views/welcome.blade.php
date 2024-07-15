@@ -101,7 +101,7 @@
                             <h2 class="text-3xl mt-8 mb-2">Accuselect</h2>
                             <p class="text-lg max-w-50 mx-auto">SWE Intern</p>
                             <p class="text-center text-lg mx-auto">Mar 2024 - Current</p>
-                            <p>6 Months</p>
+                            <p>{{$currentJob}} Months</p>
                         </div>
                         <div class="text-white text-center font-bold font-mono">
                             <h2 class="text-3xl mt-8 mb-2">T-Portal</h2>
