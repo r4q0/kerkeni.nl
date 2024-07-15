@@ -9,8 +9,8 @@ Route::get('/', function () {
 
 Route::get('/projects', function () {
     return ProjectsController::renderProjects();
-});
+})->name('projects');
 
 Route::get('/endeavours', function () {
     return view('Endeavours');
-})->name('Endeavours');
+})->name('endeavours');
