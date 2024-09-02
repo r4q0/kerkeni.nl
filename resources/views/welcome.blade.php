@@ -62,7 +62,7 @@
                     <p class="p-1">Linkedin</p>
                 </a>
             <div class="text-[#63B3ED] text-center items-center flex mx-auto mb-20 text-2xl underline">
-              <a href="mailto:contact@bilalkerkeni.com">contact@bilalkerkeni.com</a>
+              <a href="mailto:bilal@kerkeni.com">bilal@kerkeni.nl</a>
             </div>
         </div>
     </div>
