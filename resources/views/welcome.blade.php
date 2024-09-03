@@ -122,15 +122,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid grid-rows md:grid-cols-2 md:gap-4 md:mx-20 mt-5">
+                <div class="grid grid-rows ml-5 md:grid-cols-2 md:gap-4 md:mx-20 text-center justify-center">
                     <a href="{{ route('projects') }}"><button
-                            class="w-[70%] mx-auto rounded-xl text-black font-mono text-2xl bg-white border-b-[#0E0940] border-l-[#0E0940] border-b-4 border-l-4 text-black px-6 py-3 font-bold transition-all duration-300 translate-x-[-4px] translate-y-[8px] shadow-[4px_-4px_0px_#0E0940] hover:translate-x-[0px] hover:translate-y-[0px] hover:shadow-none hover:border-4 border-4 border-[#0E0940]">
+                            class="md:w-[70%] mx-auto rounded-xl text-black font-mono text-2xl bg-white border-b-[#0E0940] border-l-[#0E0940] border-b-4 border-l-4 text-black px-6 py-3 font-bold transition-all duration-300 translate-x-[-4px] translate-y-[8px] shadow-[4px_-4px_0px_#0E0940] hover:translate-x-[0px] hover:translate-y-[0px] hover:shadow-none hover:border-4 border-4 border-[#0E0940]">
                             Projects
                         </button>
                     </a>
                     <a href="{{ route('endeavours') }}">
                         <button
-                            class="w-[70%] mx-auto rounded-xl text-black font-mono text-2xl bg-white border-b-[#0E0940] border-l-[#0E0940] border-b-4 border-l-4 text-black px-6 py-3 font-black transition-all duration-300 translate-x-[-4px] translate-y-[8px] shadow-[4px_-4px_0px_#0E0940] hover:translate-x-[0px] hover:translate-y-[0px] hover:shadow-none hover:border-4 border-4 border-[#0E0940]">
+                            class="md:w-[70%] mx-auto rounded-xl text-black font-mono text-2xl bg-white border-b-[#0E0940] border-l-[#0E0940] border-b-4 border-l-4 text-black px-6 py-3 font-black transition-all duration-300 translate-x-[-4px] translate-y-[8px] shadow-[4px_-4px_0px_#0E0940] hover:translate-x-[0px] hover:translate-y-[0px] hover:shadow-none hover:border-4 border-4 border-[#0E0940]">
                             Endeavours
                         </button>
                     </a>
