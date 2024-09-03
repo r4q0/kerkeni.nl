@@ -20,12 +20,12 @@
 
         <div class="grid grid-cols-1 w-[90vw] md:w-[70vw] h-[100vh] gap-20">
             <div class="bg-[#061434] rounded-[20px] md:rounded-[70px]">
-                <h2 class="text-center font-bold font-mono text-5xl md:text-8xl text-white pt-10">Kabo Arbitrage</h2>
-                <p class="text-white text-lg md:text-xl font-mono max-w-[70vw] md:max-w-[40vw] pt-10 text-center mx-auto">Kabo Arbitrage is a crypto arbitrage tool that I created during a summer vacation. I work on it from time to time, and it has continued to be moderately profitable. I definitely want to keep working on it.</p>
+                <h2 class="text-center font-bold font-mono text-5xl md:text-6xl text-white pt-10">Kabo Arbitrage</h2>
+                <p class="text-white text-lg md:text-md font-mono max-w-[70vw] md:max-w-[40vw] pt-10 text-center mx-auto">Kabo Arbitrage is a crypto arbitrage tool that I created during a summer vacation. I work on it from time to time, and it has continued to be moderately profitable. I definitely want to keep working on it.</p>
             </div>
             <div class="bg-[#061434]  rounded-[20px] md:rounded-[70px]">
-                <h2 class="text-center font-bold font-mono text-5xl md:text-8xl text-white pt-10">Imagefy</h2>
-                <p class="text-white text-lg md:text-xl font-mono max-w-[70vw] md:max-w-[40vw] pt-10 text-center mx-auto">Imagefy was a Stable Diffusion wrapper I created. I also provided the compute and offered it as a
+                <h2 class="text-center font-bold font-mono text-5xl md:text-6xl text-white pt-10">Imagefy</h2>
+                <p class="text-white text-lg md:text-md font-mono max-w-[70vw] md:max-w-[40vw] pt-10 text-center mx-auto">Imagefy was a Stable Diffusion wrapper I created. I also provided the compute and offered it as a
                     pay-as-you-go service. I made sure to simplify the application because Stable Diffusion is quite
                     complicated and hard to get into. I put an emphasis on user experience and received good feedback. I
                     quit the project due to interest in other endeavors.</p>
