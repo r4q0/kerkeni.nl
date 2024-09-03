@@ -8,7 +8,7 @@
 
 <body class="bg-[060522]">
 
-    <div id="waves" class="h-[110vh] md:h-[72vh] mx-1 md:m-5 md:mt-10 bg-[#061434] shadow-lg shadow-darkBlue-900/20 md:mx-40 rounded-3xl grid grid-cols md:grid-rows-[90%_10%]">
+    <div id="waves" class="h-fit md:h-[72vh] mx-1 md:m-5 md:mt-10 bg-[#061434] shadow-lg shadow-darkBlue-900/20 md:mx-40 rounded-3xl grid grid-cols md:grid-rows-[90%_10%]">
         <div class="grid grid-rows md:grid-cols-[40%_60%] p-2 md:p-10">
             <div>
                 <img class="md:mx-auto rounded-[120px] h-[400px] w-[400px] object-scale-down" src="images/me.jpg"
@@ -40,8 +40,8 @@
                 </div>
             </div>
         </div>
-        <div class=" text-white font-bold text-center grid grid-rows gap-1 md:grid-cols-[20%_20%_60%] font-mono ">
-            <a href="https://github.com/r4q0" class="text-center items-center flex mx-auto text-xl md:text-2xl">
+        <div class="text-white font-bold text-center grid grid-rows gap-1 md:grid-cols-[20%_20%_60%] font-mono ">
+            <a href="https://github.com/r4q0" class="text-center items-center flex mx-auto text-lg md:text-2xl">
                 <svg class="h-6 w-6 md:h-10 md:w-10 " viewBox="0 0 98 96"xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"
@@ -50,7 +50,7 @@
                 <p class="p-1">Github</p>
             </a>
 
-            <a class="text-center items-center flex mx-auto text-xl md:text-2xl"
+            <a class="text-center items-center flex mx-auto text-lg md:text-2xl"
                 href="https://www.linkedin.com/in/bilal-user/">
                 <svg class="inline-block h-6 w-6 md:h-9 md:w-9" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" color="#0077B5"
@@ -59,16 +59,16 @@
                 </svg>
                 <p class="p-1">Linkedin</p>
             </a>
-            <div class="text-[#63B3ED] text-center items-center flex mx-auto text-xl md:text-2xl underline">
+            <div class="text-[#63B3ED] text-center items-center flex mx-auto text-lg md:text-2xl underline">
                 <a href="mailto:bilal@kerkeni.com">bilal@kerkeni.nl</a>
             </div>
         </div>
     </div>
 
-    <div class=" hidden mx-32 grid grid-cols-[35%_65%] ">
-        <div class="m-10 grid grid-cols-[60%_40%]">
-            <div class="text-left font-bold text-xl font-mono">
-                <h2 class="text-white font-bold text-2xl mb-5">Skills</h2>
+    <div class="mx-1 md:mx-32 grid grid-cols-[35%_65%] ">
+        <div class="m-5 md:m-10 grid grid-rows md:grid-cols-[60%_40%]">
+            <div class="text-left font-bold text-md md:text-xl font-mono">
+                <h2 class="text-white font-bold text-xl md:text-2xl mb-5">Skills</h2>
                 <p class="foxrainbow">PHP</p>
                 <p class="foxrainbow">MYSQL</p>
                 <p class="foxrainbow">Laravel</p>
@@ -82,19 +82,18 @@
                 <p class="foxrainbow">Eleven Labs</p>
                 <p class="foxrainbow">Hardware</p>
             </div>
-            <div class="text-center text-white font-bold font-mono text-xl">
-                <h2 class="text-2xl mb-5">Languages</h2>
+            <div class="text-center text-white font-bold font-mono text-md md:text-xl">
+                <h2 class="text-xl md:text-2xl mb-5">Languages</h2>
                 <p>Dutch 🇳🇱</p>
                 <p>English 🇬🇧</p>
                 <p>Arabic 🇲🇦</p>
-                {{-- <p>Spanish 🇪🇸</p> --}}
             </div>
         </div>
         <div>
-            <h2 class="mt-10 text-center font-mono text-white font-bold text-4xl">Experience</h2>
-            <div class="grid grid-rows-[80%_20%]">
-                <div class="grid grid-rows-2 mx-32">
-                    <div class="grid grid-cols-2">
+            <h2 class="m-5 md:mt-10 text-center font-mono text-white font-bold text-xl md:text-4xl">Experience</h2>
+            <div class="grid grid-cols md:grid-rows-[80%_20%]">
+                <div class="grid grid-cols md:grid-rows-2 md:mx-32">
+                    <div class="grid grid-rows md:grid-cols-2">
                         <div class="text-white text-center font-bold font-mono">
                             <h2 class="text-3xl mt-8 mb-2">Accuselect</h2>
                             <p class="text-lg max-w-50 mx-auto">SWE Intern</p>
@@ -108,7 +107,7 @@
                             <p>2 Years</p>
                         </div>
                     </div>
-                    <div class="grid grid-cols-2">
+                    <div class="grid grid-rows md:grid-cols-2">
                         <div class="text-white text-center font-bold font-mono">
                             <h2 class="text-3xl mt-8 mb-2">Triple</h2>
                             <p class="text-lg max-w-50 mx-auto">Young Proffesional</p>
@@ -123,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 gap-4 mx-20 mt-5">
+                <div class="grid grid-rows md:grid-cols-2 md:gap-4 md:mx-20 mt-5">
                     <a href="{{ route('projects') }}"><button
                             class="w-[70%] mx-auto rounded-xl text-black font-mono text-2xl bg-white border-b-[#0E0940] border-l-[#0E0940] border-b-4 border-l-4 text-black px-6 py-3 font-bold transition-all duration-300 translate-x-[-4px] translate-y-[8px] shadow-[4px_-4px_0px_#0E0940] hover:translate-x-[0px] hover:translate-y-[0px] hover:shadow-none hover:border-4 border-4 border-[#0E0940]">
                             Projects
