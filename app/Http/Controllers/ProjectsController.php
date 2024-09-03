@@ -14,7 +14,7 @@ class ProjectsController extends Controller
         if (session()->has('projects')) {
             $repos = session('projects');
         } else {
-            $response = Http::get('https://api.github.com/users/r5q0/repos');
+            $response = Http::get('https://api.github.com/users/bq3r/repos');
             $data = $response->json();
             $repos = [];
 

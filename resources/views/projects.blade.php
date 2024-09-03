@@ -40,7 +40,7 @@
                     </div>
                     <div class="grid grid-cols-[60%_40%]">
                         <p class=" my-auto font-mono line-clamp-5 overflow-hidden m-2    text-center text-lg">{{ $project['description'] }}</p>
-                        <div class="font-mono grid grid-rows-2 text-center m-5"><p class="font-bold text-xl my-auto">Updated: {{ $project['updated'] }}</p> <p class="font-bold text-xl my-auto">Created: {{$project['created']}}</p></div>
+                        <div class="font-mono grid grid-rows-2 text-center m-5"><p class="font-bold text-xl my-auto">Last Commit: {{ $project['updated'] }}</p> <p class="font-bold text-xl my-auto">Created: {{$project['created']}}</p></div>
                     </div>
                 </div>
             @endforeach
