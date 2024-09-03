@@ -18,11 +18,7 @@
     </a>
     <div class="flex justify-center items-center">
 
-        <div class="grid grid-cols-1 w-[70vw] h-[150vh] gap-20">
-            <div class="bg-[#061434] rounded-[70px] blur select-none">
-                <h2 class="text-center font-bold font-mono text-8xl text-white pt-10">Krate</h2>
-                <p class="text-white text-xl font-mono max-w-[40vw] pt-10 text-center mx-auto">Krate is my main focus. It is a cloud compute service catered to high-compute markets such as AI, rendering, and more. I aspire to innovate within the compute industry.</p>
-            </div>
+        <div class="grid grid-cols-1 w-[70vw] h-[100vh] gap-20">
             <div class="bg-[#061434] rounded-[70px]">
                 <h2 class="text-center font-bold font-mono text-8xl text-white pt-10">Kabo Arbitrage</h2>
                 <p class="text-white text-xl font-mono max-w-[40vw] pt-10 text-center mx-auto">Kabo Arbitrage is a crypto arbitrage tool that I created during a summer vacation. I work on it from time to time, and it has continued to be moderately profitable. I definitely want to keep working on it.</p>
