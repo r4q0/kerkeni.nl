@@ -15,5 +15,5 @@ Route::get('/projects', function () {
 })->name('projects');
 
 Route::get('/endeavours', function () {
-    return view('Endeavours');
+    return view('endeavours');
 })->name('endeavours');
