@@ -8,7 +8,7 @@
 
 <body class="bg-[060522]">
 
-    <div id="waves" class="h-fit md:h-[72vh] mx-1 md:m-5 md:mt-10 bg-[#061434] shadow-lg shadow-darkBlue-900/20 md:mx-40 rounded-3xl grid grid-cols md:grid-rows-[90%_10%]">
+    <div id="waves" class="h-fit md:h-[73vh] mx-1 md:m-5 md:mt-10 bg-[#061434] shadow-lg shadow-darkBlue-900/20 md:mx-32 rounded-3xl grid grid-cols md:grid-rows-[90%_10%]">
         <div class="grid grid-rows md:grid-cols-[40%_60%] p-2 md:p-10">
             <div>
                 <img class="md:mx-auto rounded-[120px] h-[400px] w-[400px] object-scale-down" src="images/me.jpg"
