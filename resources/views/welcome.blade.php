@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Hi! I'm Bilal Kerkeni, and this is my portfolio website where you can explore my projects, endeavors, and find my contact details. Discover more about my work and skills!">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title>Bilal | Home</title>
-    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD//v7+AP///wD///8A////AP///wAAAAD/AAAA/wAAAP////8A////AP///wD///8A////AP///wAAAAD/AAAA/wAAAP8AAAD/////AP///wD///8AAAAA/wAAAP8AAAD/////AP///wD///8A////AP///wD///8A////AAAAAP8AAAD/AAAA/xQUFNT///8A////AAAAAP8AAAD/AAAA/////wD///8A////AP///wD///8A////AP///wDq6uoHAAAA/wAAAP8AAAD/////AP///wAAAAD/AAAA/wAAAP////8A////AP///wD///8A////AP///wD///8A////AAAAAP8AAAD/AAAA/////wD///8AAAAA/wAAAP8AAAD/////AP///wD///8A////AP///wD///8A////AMjIyB4AAAD/AAAA/wAAAP////8A////AAAAAP8AAAD/AAAA/////wD///8A////AP///wD///8A////AP///wAAAAD/AAAA/wAAAP////8A////AP///wAAAAD/AAAA/wAAAP////8A////AP///wD///8A////AP///wAAAAD+AAAA/wAAAP////8A////AP///wD///8AAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/v///wD///8A////AP///wD///8A////AAAAAP8AAAD/AAAA/////wD///8A////AP///wD///8A////AAAAAP8AAAD/AAAA/////wD///8A////AP///wAAAAD/AAAA/wAAAP////8A////AP///wD///8A////AP///wD///8AAAAA/wAAAP8AAAD/////AP///wD///8AAAAA/wAAAP8AAAD/////AP///wD///8A////AP///wD///8A////AAAAAP8AAAD/AAAA/////wD///8A////AAAAAP8AAAD/AAAA/////wD///8A////AP///wD///8A////AP///wAAAAD/AAAA/wAAAP////8A////AP///wAAAAD/AAAA/wAAAP////8A////AP///wD///8A////AP///wD///8AAAAA/wAAAP8AAAD/////AP///wD///8AAAAA/wAAAP8AAAD/////AP///wD///8A////AP///wD///8AAAAA/wAAAP8AAAD/////AP///wAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8rKyux////AP///wD///8AAAcAAMfhAADH8AAAx/gAAMf4AADH+AAAx/EAAMfjAADADwAAx+MAAMfxAADH8QAAx/EAAMfxAADH4wAAAAcAAA==" rel="icon" type="image/x-icon">
+
 <body class="bg-[060522]">
 
-    <div id="waves" class="h-fit md:h-[73vh] mx-1 md:m-5 md:mt-10 bg-[#061434] shadow-lg shadow-darkBlue-900/20 md:mx-32 rounded-3xl grid grid-cols md:grid-rows-[90%_10%]">
+    <div id="waves"
+        class="h-fit md:h-[73vh] mx-1 md:m-5 md:mt-10 bg-[#061434] shadow-lg shadow-darkBlue-900/20 md:mx-32 rounded-3xl grid grid-cols md:grid-rows-[90%_10%]">
         <div class="grid grid-rows md:grid-cols-[40%_60%] p-2 md:p-10">
             <div>
                 <img class="md:mx-auto rounded-[120px] h-[400px] w-[400px] object-scale-down" src="images/me.jpg"
@@ -27,7 +30,8 @@
 | |_) | | | (_| | | | . \  __/ |  |   <  __/ | | | |
 |____/|_|_|\__,_|_| |_|\_\___|_|  |_|\_\___|_| |_|_|
 </pre>
-                <div class="mx-auto text-center max-w-[75%] text-xs md:text-lg text-white font-bold mt-4 font-mono grid place-items-center">
+                <div
+                    class="mx-auto text-center max-w-[75%] text-xs md:text-lg text-white font-bold mt-4 font-mono grid place-items-center">
                     <p class="">Hi! I'm Bilal, a software developer and student from Amsterdam interested in the
                         HPC (High-Performance Computing) industry, particularly infrastructure. The rise of AI is
                         reshaping our world, demanding substantial computing power for its development and upkeep, and I
@@ -52,7 +56,8 @@
 
             <a class="text-center items-center flex mx-auto text-lg md:text-2xl"
                 href="https://www.linkedin.com/in/bilal-user/">
-                <svg class="inline-block h-6 w-6 md:h-9 md:w-9" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="inline-block h-6 w-6 md:h-9 md:w-9" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" color="#0077B5"
                         d="M1.26125 0C0.564678 0 0 0.564678 0 1.26125V13.8737C0 14.5703 0.564678 15.135 1.26125 15.135H13.8738C14.5703 15.135 15.135 14.5703 15.135 13.8737V1.26125C15.135 0.564678 14.5703 0 13.8738 0H1.26125ZM4.64204 3.36562C4.64677 4.16967 4.04492 4.6651 3.33073 4.66155C2.65793 4.65801 2.07145 4.12237 2.075 3.36681C2.07855 2.65617 2.6402 2.08506 3.36976 2.10161C4.10995 2.11817 4.64677 2.6609 4.64204 3.36562ZM7.80268 5.68551H5.68379H5.6826V12.8829H7.92208V12.715C7.92208 12.3956 7.92183 12.076 7.92158 11.7564C7.9209 10.904 7.92015 10.0506 7.92452 9.19846C7.9257 8.99154 7.93511 8.77637 7.98834 8.57885C8.18812 7.84102 8.85154 7.36452 9.59172 7.48165C10.067 7.55606 10.3815 7.83161 10.5139 8.27977C10.5956 8.55994 10.6323 8.86146 10.6358 9.15356C10.6454 10.0344 10.644 10.9153 10.6427 11.7962C10.6422 12.1072 10.6417 12.4183 10.6417 12.7292V12.8817H12.8883V12.7091C12.8883 12.3291 12.8881 11.9491 12.8879 11.5691C12.8875 10.6194 12.8869 9.66967 12.8895 8.71961C12.8906 8.29036 12.8446 7.86709 12.7393 7.45205C12.5821 6.8348 12.2569 6.32399 11.7284 5.95512C11.3535 5.6926 10.942 5.52352 10.4821 5.5046C10.4297 5.50242 10.3769 5.49957 10.3238 5.4967C10.0887 5.48399 9.84961 5.47108 9.62477 5.51642C8.98153 5.6453 8.41641 5.93973 7.98951 6.45878C7.93991 6.51831 7.89139 6.57876 7.81899 6.66899L7.80268 6.68942V5.68551ZM2.25481 12.8853H4.48368V5.6902H2.25481V12.8853Z"
                         fill="currentColor"></path>
