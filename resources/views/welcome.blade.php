@@ -14,14 +14,16 @@
         class="h-fit md:h-[73vh] mx-1 md:m-5 md:mt-10 bg-[#061434] shadow-lg shadow-darkBlue-900/20 md:mx-32 rounded-3xl grid grid-cols md:grid-rows-[90%_10%]">
         <div class="grid grid-rows md:grid-cols-[40%_60%] p-2 md:p-10">
             <div>
-                <img class="md:mx-auto rounded-[120px] h-[400px] w-[400px] object-scale-down" src="images/me.jpg"
-                    alt="">
+                <div class="flex justify-center">
+                    <img class="md:mx-auto rounded-[120px] h-[400px] w-[400px] object-scale-down" src="images/me.jpg"
+                        alt="">
+                </div>
                 <p class="text-center text-white font-bold font-mono text-xl md:text-3xl sm:m-2">📍Amsterdam</p>
                 <p class="text-center text-white font-mono font-bold text-xl md:text-3xl md:m-2">I'm <strong
                         class="text-[#13B9B9]">{{ $age }}</strong> years old</p>
             </div>
             <div class="grid grid-rows-[20%_80%]">
-                <pre class='text-center text-white font-black text-xs md:text-2xl'
+                <pre class='text-center text-white font-black text-[1.8vw] md:text-[1.5vw]'
                     style="line-height: 1; dominant-baseline: hanging; white-space: pre;" font-weight="bold" fill="rgb(198, 198, 198)"
                     fill-opacity="1">
  ____  _ _       _   _  __         _              _ 
@@ -31,7 +33,7 @@
 |____/|_|_|\__,_|_| |_|\_\___|_|  |_|\_\___|_| |_|_|
 </pre>
                 <div
-                    class="mx-auto text-center max-w-[75%] text-xs md:text-lg text-white font-bold mt-4 font-mono grid place-items-center">
+                    class="mx-auto text-center max-w-[75%] text-[2vw] md:text-[1.2vw] text-white font-bold mt-4 font-mono grid place-items-center">
                     <p class="">Hi! I'm Bilal, a software developer and student from Amsterdam interested in the
                         HPC (High-Performance Computing) industry, particularly infrastructure. The rise of AI is
                         reshaping our world, demanding substantial computing power for its development and upkeep, and I
