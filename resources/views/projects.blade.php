@@ -19,13 +19,13 @@
     </a>
     <div class="flex justify-center items-center">
         <div class="grid grid-cols-1 w-[100vw] md:w-[60vw] ">
-            <div class=" grid grid-rows md:grid-cols-[15%_85%] bg-[#061434] border-2 border-white md:h-52 m-5 p-4 rounded-2xl">
-                <svg class="mx-auto my-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <div class="grid grid-rows md:grid-cols-[15%_85%] bg-[#061434] border-2 border-white md:h-52 m-5 p-4 rounded-2xl">
+                <svg class="mx-auto my-auto w-[9vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path fill="white"
                         d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
                 </svg>
                 <div class="grid grid-rows-[90%_10%]">
-                <h2 class="text-center text-white p-5 font-bold text-2xl my-auto font-mono">These projects and the
+                <h2 class="text-center text-white p-5 pb-0 font-bold text-[3vw] md:text-2xl my-auto font-mono">These projects and the
                     information provided with them are scraped from my GitHub with an application I made.</h2>
                     <p class="text-[#FF0000] text-center">Private projects are not included</p>
                 </div>
