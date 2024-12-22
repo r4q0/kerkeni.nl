@@ -38,7 +38,7 @@
                         HPC (High-Performance Computing) industry, particularly infrastructure. The rise of AI is
                         reshaping our world, demanding substantial computing power for its development and upkeep, and I
                         want to be part of that revolution. I like to code on the side, and I'm always looking for new
-                        projects to work on. I am currently learning C++ and Python. I am always looking for cool
+                        projects to work on. I am currently mainly using C++ and Python. I am always looking for cool
                         projects or business opportunities. If you have any good ideas or need some help, mail me at the
                         email below.
                     </p>
@@ -93,7 +93,7 @@
                 <h2 class="text-xl md:text-2xl mb-5">Languages</h2>
                 <p>Dutch 🇳🇱</p>
                 <p>English 🇬🇧</p>
-                <p>Arabic 🇲🇦</p>
+                <p>Spanish 🇪🇸</p>
             </div>
         </div>
         <div>
