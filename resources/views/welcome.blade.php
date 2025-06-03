@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    @vite('resources/css/app.css')
     <meta name="description"
         content="Hi! I'm Bilal Kerkeni, and this is my portfolio website where you can explore my projects, endeavors, and find my contact details. Discover more about my work and skills!">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -104,13 +104,13 @@
                     <div class="grid grid-rows md:grid-cols-2">
                         <div class="text-white text-center font-bold font-mono">
                             <h2 class="text-3xl mt-8 mb-2">Accuselect</h2>
-                            <p class="text-lg max-w-50 mx-auto">SWE Intern</p>
+                            <p class="text-lg max-w-50 mx-auto">Software Engineer</p>
                             <p class="text-center text-lg mx-auto">Mar 2024 - Mar 2025</p>
                             <p>1 Year</p>
                         </div>
                         <div class="text-white text-center font-bold font-mono">
                             <h2 class="text-3xl mt-8 mb-2">T-Portal</h2>
-                            <p class="text-lg max-w-50 mx-auto">Software Developer</p>
+                            <p class="text-lg max-w-50 mx-auto">Software Engineer</p>
                             <p class="text-center text-lg mx-auto">Dec 2022 - Feb 2024</p>
                             <p>2 Years</p>
                         </div>
@@ -129,13 +129,14 @@
                             <p>6 Months</p>
                         </div>
                     </div>
-                </div>
-                <div class="grid grid-rows w-100 md:mx-20 text-center justify-center">
-                    <a href="{{ route('projects') }}"><button
-                            class="mx-auto w-[30vw] md:w-[15vw] rounded-xl text-black font-mono text-[4vw] md:text-[1.5vw] bg-white border-b-[#0E0940] border-l-[#0E0940] border-b-4 border-l-4 text-black px-6 py-3 font-bold transition-all duration-300 translate-x-[-4px] translate-y-[8px] shadow-[4px_-4px_0px_#0E0940] hover:translate-x-[0px] hover:translate-y-[0px] hover:shadow-none hover:border-4 border-4 border-[#0E0940]">
-                            Projects
-                        </button>
-                    </a>
+                    <div class="grid w-full mb-4 justify-center">
+                        <a href="{{ route('projects') }}">
+                            <button
+                                class="mx-auto w-[30vw] md:w-[15vw] rounded-xl text-black font-mono text-[4vw] md:text-[1.5vw] bg-white border-b-[#0E0940] border-l-[#0E0940] border-b-4 border-l-4 text-black px-6 py-3 font-bold transition-all duration-300 translate-x-[-4px] translate-y-[8px] shadow-[4px_-4px_0px_#0E0940] hover:translate-x-[0px] hover:translate-y-[0px] hover:shadow-none hover:border-4 border-4 border-[#0E0940]">
+                                Projects
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
