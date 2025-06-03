@@ -34,14 +34,10 @@
 |____/|_|_|\__,_|_| |_|\_\___|_|  |_|\_\___|_| |_|_|
 </pre>
                 <div
-                    class="mx-auto text-center max-w-[75%] text-[2.4vw] md:text-[1.2vw] text-white font-bold mt-4 font-mono grid place-items-center">
-                    <p class="">Hi! I'm Bilal, a software developer and student from Amsterdam interested in the
-                        HPC (High-Performance Computing) industry, particularly infrastructure. The rise of AI is
-                        reshaping our world, demanding substantial computing power for its development and upkeep, and I
-                        want to be part of that revolution. I like to code on the side, and I'm always looking for new
-                        projects to work on. I am currently mainly using C++ and Python. I am always looking for cool
-                        projects or business opportunities. If you have any good ideas or need some help, mail me at the
-                        email below.
+                    class="mx-auto text-center max-w-[75%] text-[2.4vw] md:text-[1.7vw] text-white font-bold mt-4 font-mono grid place-items-center">
+                    <p class="">Hi, I’m Bilal. I’m from Amsterdam. I’m into AI, especially the infrastructure
+                        behind it, and I love building cool, impactful projects. If you have an interesting idea you
+                        think I could help with, feel free to reach out!
                     </p>
 
                 </div>
