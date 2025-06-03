@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <meta name="description" content="Hi! I'm Bilal Kerkeni, and this is my portfolio website where you can explore my projects, endeavors, and find my contact details. Discover more about my work and skills!">
+    <meta name="description"
+        content="Hi! I'm Bilal Kerkeni, and this is my portfolio website where you can explore my projects, endeavors, and find my contact details. Discover more about my work and skills!">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title>Bilal | Home</title>
 
@@ -76,23 +77,23 @@
         <div class="m-5 md:m-10 grid grid-rows md:grid-cols-[60%_40%]">
             <div class="text-left font-bold text-md md:text-xl font-mono">
                 <h2 class="text-white font-bold text-xl md:text-2xl mb-5">Skills</h2>
-                <p class="foxrainbow">PHP</p>
-                <p class="foxrainbow">MYSQL</p>
-                <p class="foxrainbow">Laravel</p>
-                <p class="foxrainbow">Html</p>
-                <p class="foxrainbow">CSS</p>
-                <p class="foxrainbow">Tailwind</p>
-                <p class="foxrainbow">Javascript</p>
-                <p class="foxrainbow">Python</p>
-                <p class="foxrainbow">Stable Diffusion</p>
-                <p class="foxrainbow">Docker</p>
-                <p class="foxrainbow">Eleven Labs</p>
-                <p class="foxrainbow">Hardware</p>
+                <p class="text-white">CSS</p>
+                <p class="text-white">Docker</p>
+                <p class="text-white">Embedded Systems</p>
+                <p class="text-white">Html</p>
+                <p class="text-white">Javascript</p>
+                <p class="text-white">Laravel</p>
+                <p class="text-white">MYSQL</p>
+                <p class="text-white">PHP</p>
+                <p class="text-white">Python</p>
+                <p class="text-white">Stable Diffusion</p>
+                <p class="text-white">Tailwind</p>
             </div>
             <div class="text-center text-white font-bold font-mono text-md md:text-xl">
                 <h2 class="text-xl md:text-2xl mb-5">Languages</h2>
                 <p>Dutch 🇳🇱</p>
                 <p>English 🇬🇧</p>
+                <p>Arabic 🇹🇳</p>
                 <p>Spanish 🇪🇸</p>
             </div>
         </div>
@@ -104,8 +105,8 @@
                         <div class="text-white text-center font-bold font-mono">
                             <h2 class="text-3xl mt-8 mb-2">Accuselect</h2>
                             <p class="text-lg max-w-50 mx-auto">SWE Intern</p>
-                            <p class="text-center text-lg mx-auto">Mar 2024 - Current</p>
-                            <p>{{ $currentJob }} Months</p>
+                            <p class="text-center text-lg mx-auto">Mar 2024 - Mar 2025</p>
+                            <p>1 Year</p>
                         </div>
                         <div class="text-white text-center font-bold font-mono">
                             <h2 class="text-3xl mt-8 mb-2">T-Portal</h2>
@@ -142,131 +143,3 @@
 </body>
 
 </html>
-
-<script>
-    (function() {
-        let textspeed = 99999;
-
-        let classestoberainbowed = document.getElementsByClassName('foxrainbow');
-        let spanstoberainbowed = spanArrayContents(classestoberainbowed);
-        textcolorchange(spanstoberainbowed, textspeed);
-        //Actually do the rainbow effect. Backgrounds only.
-        setInterval(() => {
-
-            for (let i = 0; i < backgroundtoberainbowed.length; i++) {
-                backgroundtoberainbowed[i].style.backgroundColor = 'hsl(' + (backgroundcounter + Math.floor(
-                    i * backgroundspeed)) + ', 100%, 70%';
-            }
-            backgroundcounter++;
-        }, 15);
-
-
-        //Turn the rainbow effect on only when the mouse is over the element. Use foxrainbowhover to use.
-
-        let rainbowhover = document.getElementsByClassName('foxrainbowhover');
-        let invertedhover = document.getElementsByClassName('foxrainbowhoverinv');
-        let rainbowelements = [];
-        let rainbowinvelements = [];
-        let hoverinterval = [];
-        let hoverinvinterval = [];
-        let hovercounters = [];
-        let invcounters = [];
-        let originalcolors = [];
-        let originalinvcolors = [];
-
-        for (let i = 0; i < rainbowhover.length; i++) {
-            rainbowelements[i] = spanElementContents(rainbowhover[i]);
-        }
-        for (let i = 0; i < invertedhover.length; i++) {
-            rainbowinvelements[i] = spanElementContents(invertedhover[i]);
-        }
-
-
-
-        //Set up the wavey effect with counters.
-        for (let id = 0; id < rainbowelements.length; id++) {
-            hovercounters[id] = [];
-            for (let i = 0; i < rainbowelements[id].length; i++) {
-                hovercounters[id].push(i);
-            }
-        }
-
-        for (let id = 0; id < rainbowinvelements.length; id++) {
-            invcounters[id] = [];
-            for (let i = 0; i < rainbowinvelements[id].length; i++) {
-                invcounters[id].push(i);
-            }
-        }
-
-        //Save the original color to easily return to it later.
-        for (let i = 0; i < rainbowhover.length; i++) {
-            originalcolors[i] = rainbowhover[i].style.color;
-        }
-
-
-
-
-        for (let id = 0; id < rainbowhoverbg.length; id++) {
-            rainbowhoverbg[id].addEventListener("mouseenter", function startbganimation() {
-
-                hoverbginterval[id] = setInterval(() => {
-                    rainbowhoverbg[id].style.backgroundColor = 'hsl(' + (hoverbgcounter + Math
-                        .floor(id * hoverbackgroundspeed)) + ', 100%, 70%';
-                    hoverbgcounter++;
-                }, 15);
-            }, false);
-
-            rainbowhoverbg[id].addEventListener("mouseleave", function stopbganimation() {
-                clearInterval(hoverbginterval[id]);
-                rainbowhoverbg[id].style.backgroundColor = originalbgcolors[id];
-            }, false);
-        }
-    })()
-
-
-    //Actually do the rainbow effect. Text only.
-    function textcolorchange(rainbowarray, rainbowspeed) {
-        let counterarray = [];
-
-        for (let i = 0; i < rainbowarray.length; i++) {
-            counterarray[i] = 0 + i;
-        }
-        setInterval(() => {
-
-            for (let i = 0; i < rainbowarray.length; i++) {
-                rainbowarray[i].style.color = 'hsl(' + (counterarray[i] + Math.floor(i * rainbowspeed)) +
-                    ', 100%, 70%';
-                if (counterarray[i] == 360) {
-                    counterarray[i] = 0;
-                } else {
-                    counterarray[i]++;
-                }
-            }
-        }, 7);
-    }
-
-
-    //Prepare text for having its color changed by splicing it up into individual bits
-    //and taking it out of the HTMLcollection.
-
-    function spanArrayContents(classes) {
-
-        let spans = [];
-        let chars = [];
-
-        for (let i = 0; i < classes.length; i++) {
-            chars.push(classes[i].innerText.split(""));
-            classes[i].innerHTML = chars[i].map(function(char) {
-                return '<span>' + char + "</span>";
-            }).join('');
-
-        }
-        for (let i = 0; i < classes.length; i++) {
-            let temphtmlcollection = [].slice.call(classes[i].children)
-            for (let j = 0; j < temphtmlcollection.length; j++) {
-                spans.push(temphtmlcollection[j]);
-            }
-        }
-        return spans;
-    }
-</script>
