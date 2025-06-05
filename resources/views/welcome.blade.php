@@ -114,7 +114,7 @@
                     <div class="grid grid-rows md:grid-cols-2">
                         <div class="text-white text-center font-bold font-mono">
                             <h2 class="text-3xl mt-8 mb-2">Triple</h2>
-                            <p class="text-lg max-w-50 mx-auto">Young Proffesional</p>
+                            <p class="text-lg max-w-50 mx-auto">Young Professional</p>
                             <p class="text-center text-lg mx-auto">May 2022 - Nov 2022</p>
                             <p>7 Months</p>
                         </div>
