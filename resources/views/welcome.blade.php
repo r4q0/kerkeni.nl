@@ -95,7 +95,7 @@
         </div>
         <div>
             <h2 class="m-5 md:mt-10 text-center font-mono text-white font-bold text-xl md:text-4xl">Experience</h2>
-            <div class="grid grid-cols md:grid-rows-[80%_20%]">
+            <div class="grid grid-cols md:grid-rows-[70%_30%]">
                 <div class="grid grid-cols md:grid-rows-2 md:mx-32">
                     <div class="grid grid-rows md:grid-cols-2">
                         <div class="text-white text-center font-bold font-mono">
@@ -125,7 +125,7 @@
                             <p>6 Months</p>
                         </div>
                     </div>
-                    <div class="grid w-full mb-4 justify-center">
+                    <div class="grid w-full my-4 justify-center">
                         <a href="{{ route('projects') }}" class="hover:cursor-pointer">
                             <button
                                 class="mx-auto w-[30vw] md:w-[15vw] rounded-xl font-mono text-[4vw] md:text-[1.5vw] bg-white border-b-[#0E0940] border-l-[#0E0940] border-b-4 border-l-4 text-black px-6 py-3 font-bold transition-all duration-300 translate-x-[-4px] translate-y-[8px] shadow-[4px_-4px_0px_#0E0940] hover:translate-x-[0px] hover:translate-y-[0px] hover:shadow-none hover:border-4 border-4 border-[#0E0940] hover:cursor-pointer">
