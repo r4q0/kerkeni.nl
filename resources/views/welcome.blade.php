@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     <meta name="description"
-        content="Hi! I'm Bilal Kerkeni, and this is my portfolio website where you can explore my projects, endeavors, and find my contact details. Discover more about my work and skills!">
+        content="I'm Bilal, a Software Engineer based in Amsterdam with a strong passion for AI, particularly its underlying infrastructure. I thrive on building impactful projects that solve real-world problems and enhance operational efficiency. If you have an interesting idea where my skills could contribute, feel free to reach out.">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title>Bilal | Home</title>
 
@@ -35,9 +35,7 @@
 </pre>
                 <div
                     class="mx-auto text-center max-w-[75%] text-[2.4vw] md:text-[1.7vw] text-white font-bold mt-4 font-mono grid place-items-center">
-                    <p class="">Hi, I’m Bilal. I’m from Amsterdam. I’m into AI, especially the infrastructure
-                        behind it, and I love building cool, impactful projects. If you have an interesting idea you
-                        think I could help with, feel free to reach out!
+                    <p class="">I'm Bilal, a Software Engineer based in Amsterdam with a strong passion for building, I thrive on building impactful projects that solve real-world problems and enhance operational efficiency. If you have an interesting idea where my skills could contribute, feel free to reach out!
                     </p>
 
                 </div>
@@ -64,7 +62,7 @@
                 <p class="p-1">Linkedin</p>
             </a>
             <div class="text-[#63B3ED] text-center items-center flex mx-auto text-lg md:text-2xl underline">
-                <a href="mailto:bilal@kerkeni.com">bilal@kerkeni.nl</a>
+                <a href="mailto:b@kerkeni.nl">b@kerkeni.nl</a>
             </div>
         </div>
     </div>
@@ -86,11 +84,7 @@
                 <p class="text-white">Tailwind</p>
             </div>
             <div class="text-center text-white font-bold font-mono text-md md:text-xl">
-                <h2 class="text-xl md:text-2xl mb-5">Languages</h2>
-                <p>Dutch 🇳🇱</p>
-                <p>English 🇬🇧</p>
-                <p>Arabic 🇹🇳</p>
-                <p>Spanish 🇪🇸</p>
+      
             </div>
         </div>
         <div>
