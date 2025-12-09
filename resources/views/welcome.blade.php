@@ -16,7 +16,7 @@
         <div class="grid grid-rows md:grid-cols-[40%_60%] p-2 md:p-10">
             <div>
                 <div class="flex justify-center">
-                    <img class="md:mx-auto rounded-[120px] h-[400px] w-[400px] object-scale-down" src="images/me.jpg"
+                    <img class="md:mx-auto rounded-[120px] h-[400px] w-[400px] object-scale-down" src="images/profile.jpg"
                         alt="">
                 </div>
                 <p class="text-center text-white font-bold font-mono text-xl md:text-3xl sm:m-2">📍Amsterdam</p>
@@ -34,9 +34,8 @@
 |____/|_|_|\__,_|_| |_|\_\___|_|  |_|\_\___|_| |_|_|
 </pre>
                 <div
-                    class="mx-auto text-center max-w-[75%] text-[2.4vw] md:text-[1.7vw] text-white font-bold mt-4 font-mono grid place-items-center">
-                    <p class="">I'm Bilal, a Software Engineer based in Amsterdam with a strong passion for building, I thrive on building impactful projects that solve real-world problems and enhance operational efficiency. If you have an interesting idea where my skills could contribute, feel free to reach out!
-                    </p>
+                    class="mx-auto text-center max-w-[75%] text-[2.0vw] md:text-[1.5vw] text-white font-bold mt-4 font-mono grid place-items-center">
+                    <p class="">I'm Bilal, a Engineer with a passion for building. I've worked on a wide range of projects across diverse teams from startups where I had to wear many hats, to a larger company where I was just one part of a much bigger machine. Despite my age, I’ve accumulated a solid amount of experience. If you have a project where you think I could contribute, feel free to reach out!</p>
 
                 </div>
             </div>
