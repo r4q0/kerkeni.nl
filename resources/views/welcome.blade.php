@@ -54,7 +54,7 @@
             </a>
 
             <a class="text-center items-center flex mx-auto text-lg md:text-2xl"
-                href="https://www.linkedin.com/in/bilal-user/">
+                href="https://www.linkedin.com/in/kerkeni/">
                 <svg class="inline-block h-6 w-6 md:h-9 md:w-9" viewBox="0 0 16 16" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" color="#0077B5"
